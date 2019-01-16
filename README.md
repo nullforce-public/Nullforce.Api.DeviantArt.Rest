@@ -22,10 +22,19 @@ var friendList = JsonConvert.DeserializeObject<GetUserFriendListResponse>(watchi
 ```
 
 ## Building
-Run the Cake Build script from PowerShell:
+Prerequisites:
+* .NET Core SDK
+
+First, install the dotnet tool for Cake (may require restarting a PowerShell console):
 
 ```powershell
-.\build.ps1
+dotnet tool install -g Cake.Tool
+```
+
+From the root of the repository:
+
+```powershell
+dotnet cake build.cake
 ```
 
 ## NuGet Package
