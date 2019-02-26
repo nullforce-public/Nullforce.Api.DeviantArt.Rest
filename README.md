@@ -38,4 +38,8 @@ dotnet cake build.cake
 ```
 
 ## NuGet Package
-Coming soon!
+NuGet package at https://www.nuget.org/packages/Nullforce.Api.DeviantArt.Rest
+
+```powershell
+Install-Package Nullforce.Api.DeviantArt.Rest
+```
