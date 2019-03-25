@@ -85,6 +85,11 @@ namespace Nullforce.Api.DeviantArt.Rest
             return new GetUserFriendList(_apiBaseUri, username);
         }
 
+        public GetUserProfile GetUserProfile(string username)
+        {
+            return new GetUserProfile(_apiBaseUri, username);
+        }
+
         public GetPlacebo GetPlacebo()
         {
             return new GetPlacebo(_apiBaseUri);
