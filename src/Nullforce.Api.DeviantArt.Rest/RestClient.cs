@@ -1,6 +1,7 @@
 ﻿using Nullforce.Api.DeviantArt.Rest.CollectionEndpoints;
 using Nullforce.Api.DeviantArt.Rest.DeviationEndpoints;
 using Nullforce.Api.DeviantArt.Rest.GalleryEndpoints;
+using Nullforce.Api.DeviantArt.Rest.UserEndpoints;
 using Nullforce.Api.DeviantArt.Rest.UtilityEndpoints;
 
 namespace Nullforce.Api.DeviantArt.Rest

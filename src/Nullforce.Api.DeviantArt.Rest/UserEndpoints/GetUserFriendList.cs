@@ -1,6 +1,6 @@
 using Flurl;
 
-namespace Nullforce.Api.DeviantArt.Rest.DeviationEndpoints
+namespace Nullforce.Api.DeviantArt.Rest.UserEndpoints
 {
     /// <summary>
     /// Get the users list of friends
