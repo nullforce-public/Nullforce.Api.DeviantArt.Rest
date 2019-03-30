@@ -3,7 +3,7 @@ using Flurl;
 namespace Nullforce.Api.DeviantArt.Rest.UserEndpoints
 {
     /// <summary>
-    /// Get the users list of friends
+    /// Get the user's list of friends
     /// </summary>
     public class GetUserFriendList : PagedRestBase<GetUserFriendList>, IMatureContent<GetUserFriendList>
     {

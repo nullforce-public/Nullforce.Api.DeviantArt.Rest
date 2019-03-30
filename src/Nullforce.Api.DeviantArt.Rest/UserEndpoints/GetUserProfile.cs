@@ -2,6 +2,9 @@ using Flurl;
 
 namespace Nullforce.Api.DeviantArt.Rest.UserEndpoints
 {
+    /// <summary>
+    /// Get user profile information
+    /// </summary>
     public class GetUserProfile : RestBase, IMatureContent<GetUserProfile>
     {
         public GetUserProfile(string apiBaseUri, string username)
